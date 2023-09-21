@@ -4,11 +4,12 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Rochelug - Nextcloud / Chatons</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link
+		rel="stylesheet" href="dist/theme/black.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -16,8 +17,57 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h3>Rochelug</h3>
+					<img height="150" src="img/Logo-1-300x300.png" alt="Logo Rochelug">
+					<h2>Projet d’hébergement Nextcloud et du réseau CHATONS</h2>
+				</section>
+				<section>
+					<h3>Au programme</h3>
+					<ul>
+						<li>Nextcloud</li>
+						<li>Réseau CHATONS</li>
+					</ul>
+				</section>
+
+				<section>
+					<section>
+						<h2>Nextcloud</h2>
+						<p>
+							<a href="https://nextcloud.com/" target="_blank">Nextcloud</a>
+							est un logiciel libre d'hébergement de fichiers et une plateforme de collaboration.</p>
+					</section>
+					<section>
+						<h2>Fonctionnalités</h2>
+						<ul>
+							<li>Synchronisation de fichiers entre ordinateurs smartphones</li>
+							<li>Stockage sécurisé (chiffrement des fichiers sur le serveur)</li>
+							<li>Partage de fichiers entre utilisateurs nextcloud ou externes</li>
+							<li>Serveur de fichiers WebDAV</li>
+							<li>Calendrier et tâches (synchro CalDAV)</li>
+							<li>Gestionnaire de contacts (synchro CardDAV)</li>
+						</ul>
+					</section>
+					<section>
+						<ul>
+							<li>Conférences privées audio/vidéo</li>
+							<li>Visionneuse de documents</li>
+							<li>Édition en ligne de documents</li>
+							<li>Galerie d'images</li>
+							<li>Prise de notes prenant en charge le Markdown</li>
+							<li>Messagerie web</li>
+							<li>De nombreuses applications: deck, keeweb</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Réseau CHATONS</h2>
+						<p>blah.</p>
+					</section>
+				</section>
+
 			</div>
 		</div>
 
@@ -27,14 +77,15 @@
 		<script src="plugin/highlight/highlight.js"></script>
 		<script>
 			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
-
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
+// - https://revealjs.com/initialization/
+// - https://revealjs.com/config/
+Reveal.initialize({
+hash: true,
+minScale: 0.2,
+maxScale: 1.0,
+// Learn about plugins: https://revealjs.com/plugins/
+plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+});
 		</script>
 	</body>
 </html>
